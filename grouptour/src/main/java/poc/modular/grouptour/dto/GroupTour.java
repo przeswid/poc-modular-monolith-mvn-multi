@@ -1,8 +1,8 @@
-package poc.modular.grouptour.application.port.in.ws.dto;
+package poc.modular.grouptour.dto;
 
 import lombok.Builder;
 import lombok.Value;
-import poc.modular.booking.application.port.in.dto.Booking;
+import poc.modular.booking.dto.Booking;
 
 import java.util.List;
 

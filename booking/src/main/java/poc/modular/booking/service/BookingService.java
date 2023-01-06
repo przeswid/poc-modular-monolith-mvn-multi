@@ -1,6 +1,6 @@
-package poc.modular.booking.application.port.in;
+package poc.modular.booking.service;
 
-import poc.modular.booking.application.port.in.dto.Booking;
+import poc.modular.booking.dto.Booking;
 
 import java.util.List;
 

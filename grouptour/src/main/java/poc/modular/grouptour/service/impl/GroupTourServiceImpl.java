@@ -1,16 +1,16 @@
-package poc.modular.grouptour.application.service;
+package poc.modular.grouptour.service.impl;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import poc.modular.grouptour.application.port.in.ws.GroupTourService;
-import poc.modular.grouptour.application.port.in.ws.dto.GroupTour;
-import poc.modular.grouptour.application.port.out.booking.BookingExternalService;
+import poc.modular.booking.service.BookingService;
+import poc.modular.grouptour.dto.GroupTour;
+import poc.modular.grouptour.service.GroupTourService;
 
 @Service
 @AllArgsConstructor
 class GroupTourServiceImpl implements GroupTourService {
 
-    private final BookingExternalService bookingService;
+    private final BookingService bookingService;
 
     @Override
     public GroupTour getGroupTourByIdentifier(String identifier) {

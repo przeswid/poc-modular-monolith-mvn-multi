@@ -1,13 +1,13 @@
-package poc.modular.booking.application.service;
+package poc.modular.booking.service.impl;
 
 import org.springframework.stereotype.Service;
-import poc.modular.booking.application.port.in.BookingService;
-import poc.modular.booking.application.port.in.dto.Booking;
+import poc.modular.booking.service.BookingService;
+import poc.modular.booking.dto.Booking;
 
 import java.util.List;
 
 @Service
-public class BookingServiceImpl implements BookingService {
+class BookingServiceImpl implements BookingService {
     @Override
     public List<Booking> getAllBookings() {
         return List.of(Booking.builder()

@@ -1,4 +1,4 @@
-package poc.modular.booking.application.port.in.dto;
+package poc.modular.booking.dto;
 
 import lombok.Builder;
 import lombok.Value;
