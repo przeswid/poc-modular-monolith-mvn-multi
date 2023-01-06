@@ -2,9 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
         <artifactId>poc-modular-monolith-mvn-multi</artifactId>
-        <groupId>org.example</groupId>
+        <groupId>poc.modular</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
     <artifactId>booking</artifactId>
     <name>booking</name>
