@@ -11,13 +11,13 @@ class ArchitectureTest {
     void checkIfBookingModuleIsOnlyAccessedByPortIn() {
         JavaClasses importedClasses = new ClassFileImporter().importPackages("poc.modular");
 
-        ArchRule rule = classes().that()
+        ArchRule ruleService = classes().that()
                 .resideInAPackage("poc.modular.booking..")
                 .and()
                 .resideOutsideOfPackage("poc.modular.booking.service")
                 .should().onlyBeAccessed().byClassesThat()
                 .resideInAPackage("poc.modular.booking..");
 
-        rule.check(importedClasses);
+        ruleService.check(importedClasses);
     }
 }
