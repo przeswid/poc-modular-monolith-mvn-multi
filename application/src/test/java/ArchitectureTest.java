@@ -14,7 +14,7 @@ class ArchitectureTest {
         ArchRule rule = classes().that()
                 .resideInAPackage("poc.modular.booking..")
                 .and()
-                .resideOutsideOfPackage("poc.modular.booking.application.port.in")
+                .resideOutsideOfPackage("poc.modular.booking.api..")
                 .should().onlyBeAccessed().byClassesThat()
                 .resideInAPackage("poc.modular.booking..");
 
