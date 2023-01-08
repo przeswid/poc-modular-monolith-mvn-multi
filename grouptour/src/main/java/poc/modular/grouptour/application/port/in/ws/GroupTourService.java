@@ -1,7 +1,7 @@
 package poc.modular.grouptour.application.port.in.ws;
 
-import poc.modular.grouptour.application.port.in.ws.dto.GroupTour;
+import poc.modular.grouptour.application.port.in.ws.dto.GroupTourWithBookingsDto;
 
 public interface GroupTourService {
-    GroupTour getGroupTourByIdentifier(String identifier);
+    GroupTourWithBookingsDto getGroupTourByIdentifier(String identifier);
 }

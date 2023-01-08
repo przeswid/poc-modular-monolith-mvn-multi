@@ -5,7 +5,7 @@ import lombok.Value;
 
 @Value
 @Builder
-public class Booking {
+public class BookingDto {
     String bookingId;
     int bookingVersion;
     String bookingReference;
