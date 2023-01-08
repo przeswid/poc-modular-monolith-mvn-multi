@@ -1,9 +1,11 @@
 package poc.modular.grouptour.application.port.out.booking;
 
-import poc.modular.booking.application.port.in.dto.Booking;
+import poc.modular.booking.application.port.in.dto.BookingDto;
 
-import java.util.List;
+import java.util.Optional;
 
 public interface BookingExternalService {
-    List<Booking> getAllBookingsByDepartureId(String departureId);
+    Optional<BookingDto> getBookingByBookingId(String bookingId);
+
+
 }
