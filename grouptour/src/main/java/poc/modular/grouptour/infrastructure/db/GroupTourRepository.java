@@ -1,9 +1,9 @@
-package poc.modular.grouptour.db;
+package poc.modular.grouptour.infrastructure.db;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import poc.modular.grouptour.db.dto.GroupTourDto;
-import poc.modular.grouptour.db.entity.GroupTour;
+import poc.modular.grouptour.infrastructure.db.dto.GroupTourDto;
+import poc.modular.grouptour.infrastructure.db.entity.GroupTour;
 
 import java.util.Optional;
 

@@ -1,8 +1,8 @@
-package poc.modular.grouptour.db;
+package poc.modular.grouptour.infrastructure.db;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import poc.modular.grouptour.db.entity.GroupTour;
+import poc.modular.grouptour.infrastructure.db.entity.GroupTour;
 
 import java.util.Optional;
 

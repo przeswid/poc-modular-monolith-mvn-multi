@@ -1,4 +1,4 @@
-package poc.modular.grouptour.service;
+package poc.modular.grouptour.application.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -6,8 +6,8 @@ import poc.modular.booking.api.BookingService;
 import poc.modular.booking.api.dto.BookingDto;
 import poc.modular.grouptour.api.GroupTourService;
 import poc.modular.grouptour.api.dto.GroupTourWithBookingsDto;
-import poc.modular.grouptour.db.GroupTourRepository;
-import poc.modular.grouptour.db.dto.GroupTourDto;
+import poc.modular.grouptour.infrastructure.db.GroupTourRepository;
+import poc.modular.grouptour.infrastructure.db.dto.GroupTourDto;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package poc.modular.grouptour.db.entity;
+package poc.modular.grouptour.infrastructure.db.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

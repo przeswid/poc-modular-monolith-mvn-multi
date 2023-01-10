@@ -1,9 +1,9 @@
-package poc.modular.booking.db.repository;
+package poc.modular.booking.infrastructure.db.repository;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 import poc.modular.booking.api.dto.BookingDto;
-import poc.modular.booking.db.entity.Booking;
+import poc.modular.booking.infrastructure.db.entity.Booking;
 
 import java.util.Optional;
 

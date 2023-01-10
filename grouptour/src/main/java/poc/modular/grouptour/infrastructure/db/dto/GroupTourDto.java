@@ -1,4 +1,4 @@
-package poc.modular.grouptour.db.dto;
+package poc.modular.grouptour.infrastructure.db.dto;
 
 import lombok.Builder;
 import lombok.Data;

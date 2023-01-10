@@ -1,4 +1,4 @@
-package poc.modular.booking.db.entity;
+package poc.modular.booking.infrastructure.db.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

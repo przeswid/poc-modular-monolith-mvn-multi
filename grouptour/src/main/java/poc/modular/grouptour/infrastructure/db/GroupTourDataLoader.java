@@ -1,10 +1,10 @@
-package poc.modular.grouptour.db;
+package poc.modular.grouptour.infrastructure.db;
 
 import lombok.AllArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-import poc.modular.grouptour.db.dto.GroupTourDto;
+import poc.modular.grouptour.infrastructure.db.dto.GroupTourDto;
 
 import java.util.List;
 

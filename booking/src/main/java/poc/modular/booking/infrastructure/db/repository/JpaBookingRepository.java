@@ -1,8 +1,8 @@
-package poc.modular.booking.db.repository;
+package poc.modular.booking.infrastructure.db.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import poc.modular.booking.db.entity.Booking;
+import poc.modular.booking.infrastructure.db.entity.Booking;
 
 import java.util.Optional;
 

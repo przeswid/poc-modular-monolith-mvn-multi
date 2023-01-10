@@ -1,4 +1,4 @@
-package poc.modular.booking.ws.controller;
+package poc.modular.booking.presentation.ws.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

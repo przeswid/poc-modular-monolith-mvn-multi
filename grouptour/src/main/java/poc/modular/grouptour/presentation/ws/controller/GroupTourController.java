@@ -1,4 +1,4 @@
-package poc.modular.grouptour.ws.controller;
+package poc.modular.grouptour.presentation.ws.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
